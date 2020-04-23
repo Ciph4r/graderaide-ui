@@ -22,9 +22,12 @@ createButton('Back',"backButton")
 
 
 
-data.students.push(Student('David' , 'wdi' , 1))
-data.students[0].addCourse('pytho')
-data.students[0].addCourse('wdi')
+data.students.push(Student('David' , 'WDI' , 1))
+data.students.push(Student('Slayer' , 'WORLD DOMINATION' , 1))
+data.students[1].addCourse('Hiring henchmans')
+data.students[1].addCourse('Building Secret lair')
+data.students[0].addCourse('Pytho')
+data.students[0].addCourse('WDI')
 data.students[0].courses[1].addTerm(1)
 data.students[0].courses[0].addTerm(1)
 data.students[0].courses[0].terms[0].addGrade('test' , 100)
