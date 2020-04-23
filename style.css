@@ -1,3 +1,6 @@
+html body{
+    margin: 0 auto;
+}
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -111,4 +114,14 @@ button{
   }
   .score-info{
       text-align: left;
+  }
+
+  @media (max-width : 700px) {
+    .menu {
+        height: 50px;
+        width: 100%;
+        place-self: end;
+        justify-self: left; 
+        font-size: 18px;
+
   }
