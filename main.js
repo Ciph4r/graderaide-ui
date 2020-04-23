@@ -16,7 +16,7 @@ const data = {
 const home = () => {
    removeThings()
    data.buttons[0].print(showCreate)
-   data.buttons[1].print()
+   data.buttons[1].print(showStudentList)
    }
 
 

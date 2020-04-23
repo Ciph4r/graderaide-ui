@@ -2,31 +2,43 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 15% 80% 5%;
+    height: 100vh;
+    
     
 }
 
+button{
+    width: 300px;
+    height: 50px;
+}
+
 .header {
-    background-color: aqua;
+    background-color: #232f3e;
     grid-column: 1 / span 2;
     display: grid;
     height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 5vh;
     
 }
 .sidebar{
-    background-color:rgb(204, 204, 204);
+    background-color:#37475a;
     text-align: center;
     grid-column: 1;
     grid-row: 2;
     width: 400px;
+    color: white;
     
  
     
     
 }
 .footer{
-    background-color: blue;
+    background-color: #232f3e;
     grid-column: 1 / span 2;
-    height: 5vw;
+    height: 80px;
+    /* width: 100%; */
 }
 
 .menu {
@@ -35,11 +47,15 @@ body {
     place-self: end;
     justify-self: left; 
     font-size: 18px;
+
+ 
 }
 .app {
     grid-row: 2 / span 1;
     grid-column: 2 /span 1;
-    height: 100%;
+    display: grid;
+    text-align: center;
+
 }
 .optionButton{
     font-size: 20px;
@@ -52,6 +68,7 @@ body {
 }
 .optionButton:hover {
     background-color: rgb(163, 162, 162);
+    cursor:pointer;
   }
 
 .sidebar input {
@@ -66,7 +83,30 @@ body {
     background-color: grey;
     height: 50px;
     width: 100%;
+    
 }
 .backButton:hover {
     background-color: rgb(163, 162, 162);
+    cursor:pointer;
+  }
+
+  .link:hover{
+    background-color: rgb(163, 162, 162);
+    color: white;
+    cursor:pointer;
+  }
+  .link{
+    height: 40px;
+  }
+  .info-pannel{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: stretch;
+  }
+  .assigment-info{
+      text-align: right;
+      
+  }
+  .score-info{
+      text-align: left;
   }

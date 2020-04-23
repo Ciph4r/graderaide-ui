@@ -2,7 +2,6 @@
 
 
 const createNewStudent = () => {
-    createButton('Back',"backButton")
     data.buttons[2].print(home)
     const sidebar = document.querySelector('.sidebar')
     const button = document.createElement('button')
@@ -31,6 +30,7 @@ const createNewStudent = () => {
     h3.innerText= 'Term'
     button.style.width = '100%'
     button.style.height = '30px'
+    button.addEventListener('click' , submitStudent)
     sidebar.appendChild(h1)
     sidebar.appendChild(input)
     sidebar.appendChild(h2)
